@@ -1,6 +1,6 @@
 """
 stringjumble.py
-Author: <your name>
+Author: Patrick Daley
 Credit: <sources>
 
 Assignment:
@@ -24,4 +24,22 @@ You entered "There are a few techniques or tricks that you may find handy". Now 
 ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
+"""
+from ggame import App, RectangleAsset, ImageAsset, SoundAsset
+from ggame import LineStyle, Color, Sprite, Sound
+
+
+
+text= input("Please enter a string of text (the bigger the better): ")
+print("You entered '" + text + "'. Now jumble it: ")
+
+
+def reverse(text):
+    print(text)
+    text.direction *= -1
+reverse(text)
+
+"""
+myapp = App()
+myapp.run()
 """
