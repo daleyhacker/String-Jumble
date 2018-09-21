@@ -35,9 +35,8 @@ print("You entered '" + text + "'. Now jumble it: ")
 
 
 def reverse(text):
-    print(text)
     text.direction *= -1
-reverse(text)
+print(text)
 
 """
 myapp = App()
