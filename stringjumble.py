@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Patrick Daley
-Credit: <sources>
+Credit: Classmates
 
 Assignment:
 
@@ -30,16 +30,28 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text= input("Please enter a string of text (the bigger the better): ")
 print('You entered "' + text + '". Now jumble it: ')
 
+#Part 1
+print(text[::-1])
+
 
 number = text.count("")-1
 #print(number)
 
+mylist = (list(text))
+
+
+
+
+"""
 for i in str(text)[-1]:
     print(i, end="")
 
 if text >= number:
     print(text[-1])
+    if text>= number:
+        print(text[-2])
 else:
     print("")
 
 
+"""
