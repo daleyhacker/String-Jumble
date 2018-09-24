@@ -33,25 +33,13 @@ print('You entered "' + text + '". Now jumble it: ')
 #Part 1
 print(text[::-1])
 
+#Part 2
+if " ":
+    print(text[::1])
 
 number = text.count("")-1
 #print(number)
 
 mylist = (list(text))
 
-
-
-
-"""
-for i in str(text)[-1]:
-    print(i, end="")
-
-if text >= number:
-    print(text[-1])
-    if text>= number:
-        print(text[-2])
-else:
-    print("")
-
-
-"""
+split(tex)
