@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Patrick Daley
-Credit: Classmates and 
+Credit: Classmates and the internet: https://stackoverflow.com/questions/34128842/how-to-reverse-the-order-of-the-words-string-using-python
 
 Assignment:
 
