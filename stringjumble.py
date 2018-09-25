@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Patrick Daley
-Credit: Classmates
+Credit: Classmates and 
 
 Assignment:
 
