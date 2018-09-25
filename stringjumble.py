@@ -34,12 +34,10 @@ print('You entered "' + text + '". Now jumble it: ')
 print(text[::-1])
 
 #Part 2
-if " ":
-    print(text[::1])
+split = text.split()
+reverse = split.reverse()
+text1 = " ".join(split)
+print(text1)
 
-number = text.count("")-1
-#print(number)
-
-mylist = (list(text))
-
-split(tex)
+#Part 3
+print(text1[::-1])
